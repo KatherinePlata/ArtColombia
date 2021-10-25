@@ -1,0 +1,31 @@
+{
+  "name": "api-artesanias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaSolisG/proyectoC3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DianaSolisG/proyectoC3/issues"
+  },
+  "homepage": "https://github.com/DianaSolisG/proyectoC3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-jwt-authz": "^2.4.1",
+    "jwks-rsa": "^2.0.5",
+    "mongo-client": "^0.2.1",
+    "mongodb": "^4.1.3"
+  }
+}
