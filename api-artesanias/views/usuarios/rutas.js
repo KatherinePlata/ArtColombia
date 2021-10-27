@@ -26,6 +26,12 @@ rutasUsuario.route('/usuarios').post((req, res)=>{
     crearUsuario(req.body, genericCallback(res));
 });
 
+rutasUsuario.route('/usuarios/self').get((req, res)=>{
+    console.log('alguien hiz get en la ruta /self');
+    ConsultarOCrearusuario(req, genericCallback)
+    //consultarUsuario(req.params.id, genericCallback(res));
+});
+
 rutasUsuario.route('/usuarios/:id').get((req, res)=>{
     console.log('alguien hiz get en la ruta /usuarios');
     consultarUsuario(req.params.id, genericCallback(res));
